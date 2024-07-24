@@ -15,6 +15,9 @@ export default function Main (){
             <p>{joia.preco} R$</p>
             <p>{joia.descricao}</p>
             <p>{joia.colecao}</p>
+            <button >
+              <Link href={`/joia/${joia.id}`}>Ver mais</Link>
+            </button>
           </div>
         )};
       </main>
