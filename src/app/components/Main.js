@@ -56,7 +56,6 @@ export default function Main (){
         );
       }
     
-    
     return(
         <>
          <div>
@@ -74,7 +73,8 @@ export default function Main (){
             <p>{joia.descricao}</p>
             <p>{joia.colecao}</p>
             <button >
-              <Link href={`/joia/${joia.id}`}>Ver mais</Link>
+              <Link //componente Link//
+               href={`/joia/${joia.id}`}>Ver mais</Link>
             </button>
           </div>
         )};
