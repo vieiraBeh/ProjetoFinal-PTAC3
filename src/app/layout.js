@@ -1,4 +1,3 @@
-
 export const metadata = {
   title: "Joias Vieira Stein",
   description: "Joias para todos os gostos e estilos!",

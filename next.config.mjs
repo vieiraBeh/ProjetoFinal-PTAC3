@@ -2,7 +2,12 @@
 const nextConfig = {
 
     images:{
-        domains:["m.media-amazon.com"]
+        domains:[
+            "lojavivara.vtexassets.com",
+            "dreamjoias.com",
+            "versalejoias.com",
+            "acdn.mitiendanube.com"
+        ]
     }
 };
 
