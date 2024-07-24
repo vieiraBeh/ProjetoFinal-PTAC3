@@ -5,6 +5,7 @@ import { listaDeJoias } from "../api/route";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./main.module.css";
+import Loading from "./Loading";
 
 export default function Main (){
     const [listJoia, setListJoia] = useState([]);
@@ -45,6 +46,15 @@ export default function Main (){
         <p>erro</p>
       );
       }
+
+      if (listComplete[0] == null) {
+        return (
+        <main>
+        <Loading/>
+        </main>
+        );
+      }
+    
     
     return(
         <>
