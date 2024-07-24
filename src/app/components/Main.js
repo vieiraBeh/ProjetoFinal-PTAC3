@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./main.module.css";
 import Loading from "./Loading";
+import ErrorGetData from "./ErrorGetData";
 
 export default function Main (){
     const [listJoia, setListJoia] = useState([]);
@@ -43,9 +44,9 @@ export default function Main (){
     
       if (errorFetch == true){
         return( 
-        <p>erro</p>
+        <ErrorGetData/>
       );
-      }
+      }    
 
       if (listComplete[0] == null) {
         return (
