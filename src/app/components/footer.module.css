@@ -1,0 +1,52 @@
+.rodape {
+    background-color: #e8deb3;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+  }
+  
+  .midia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .lista li {
+    display: inline-block;
+  }
+  
+  .trecho {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .trecho p {
+    margin: 0;
+  }
+  
+  .rodape a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  @media (max-width: 768px) {
+    .lista {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .lista li {
+      margin-bottom: 10px;
+    }
+  }

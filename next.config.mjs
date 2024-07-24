@@ -6,7 +6,9 @@ const nextConfig = {
             "lojavivara.vtexassets.com",
             "dreamjoias.com",
             "versalejoias.com",
-            "acdn.mitiendanube.com"
+            "acdn.mitiendanube.com",
+            "static.vecteezy.com",
+            "cdn-icons-png.freepik.com"
         ]
     }
 };

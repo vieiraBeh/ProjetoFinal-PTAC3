@@ -1,0 +1,36 @@
+/* Joia.module.css */
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #e9e3c7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #d7932d;
+}
+
+.image {
+    margin: 20px 0;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #d7932d;
+}
+
+.description {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #d7932d;
+}
+
+.collection {
+    font-size: 0.9em;
+    color: #d7932d;
+}

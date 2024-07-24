@@ -1,12 +1,21 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
+import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 export default async function Joia({params}) {
     const response =  await fetch(`http://localhost:3000/api/${params.id}`);
     const data = await response.json();
     
     return(
+        <>
+        <div>
+        <Header/>
+        </div>
+        <br/>
+        <br/>
+
         <div className={styles.container}>   
         <h1 className={styles.title}>{data.titulo}</h1>
         <Image 
@@ -20,5 +29,14 @@ export default async function Joia({params}) {
         <p className={styles.description}>{data.descricao}</p>
         <p className={styles.collection}>{data.colecao}</p> 
     </div>
+       <br/>
+       <br/>
+       <br/>
+       <br/>
+       <div>
+           <Footer/>
+       </div>
+       </>
+
     );
 }
